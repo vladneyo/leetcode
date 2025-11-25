@@ -4,37 +4,68 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml">
+      <package file="$PROJECT_DIR$">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d96ed2f0-2a13-4113-99ca-735b0714f4c6" name="Changes" comment="" />
+    <list default="true" id="d96ed2f0-2a13-4113-99ca-735b0714f4c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AddBinary.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindTheIndexOfTheFirstOccurrenceInAString.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LengthOfLastWord.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeTwoSortedLists.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlusOne.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PolindromeNumber.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveElement.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RomanToInteger.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchInsertPosition.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SqrtX.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoSum.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidParentheses.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vladneyo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vladneyo&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vladneyo/leetcode.git",
-    "accountId": "9a1d3ee1-5e84-4095-a3a2-4f5f49c7d025"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vladneyo/leetcode.git&quot;,
+    &quot;accountId&quot;: &quot;9a1d3ee1-5e84-4095-a3a2-4f5f49c7d025&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="YIlb0NTC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2tGsuDp6gSMEyRnRx7Rr3XsMBSk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,6 +75,7 @@
   "keyToString": {
     "Cargo.Run.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "git-widget-placeholder": "main",
@@ -53,7 +85,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,22 +95,6 @@
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package LeetCode --bin LeetCode" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -103,7 +121,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739989966030</updated>
-      <workItem from="1739989967273" duration="565000" />
+      <workItem from="1739989967273" duration="2944000" />
+      <workItem from="1740693402661" duration="606000" />
+      <workItem from="1764074658431" duration="11460000" />
     </task>
     <servers />
   </component>
