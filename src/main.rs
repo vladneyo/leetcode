@@ -13,6 +13,7 @@ mod PlusOne;
 mod AddBinary;
 mod SqrtX;
 mod utils;
+mod ClimbingStairs;
 
 fn main() {
     TwoSum::main();
@@ -29,4 +30,5 @@ fn main() {
     PlusOne::main();
     AddBinary::main();
     SqrtX::main();
+    ClimbingStairs::main();
 }
