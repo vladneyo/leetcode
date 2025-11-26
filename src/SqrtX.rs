@@ -6,7 +6,7 @@ use crate::printv;
 pub fn main(){
     println!("== Sqrt(X) ==");
 
-    let mut input = 0;
+    let mut input;
 
     input = 2147483647;
     printv!(input);
@@ -51,7 +51,7 @@ pub fn main(){
 fn my_sqrt(x: i32) -> i32 {
     let mut guess = i64::from(1);
 
-    while true {
+    loop {
         guess = (guess + x as i64 / guess) / 2;
 
         if guess * guess <= x as i64 && (guess + 1) * (guess + 1) > x as i64 {

@@ -30,7 +30,7 @@ fn longest_common_prefix(strs: Vec<String>) -> String {
 
     // chunk to check is 1st word, then reduced
     let mut chunk = ordered_str.first().unwrap().to_string();
-    while (!ordered_str.iter().all(|x| x.starts_with(&chunk))) {
+    while !ordered_str.iter().all(|x| x.starts_with(&chunk)) {
         chunk = chunk.chars().take(chunk.len() - 1).collect::<String>();
     }
     chunk

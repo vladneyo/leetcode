@@ -55,7 +55,7 @@ fn add_binary(a: String, b: String) -> String {
             // zero-padding
             String::insert_str(&mut mb, 0, "0".repeat(x - y).as_str());
         }
-        (x, _) => {}
+        (_x, _) => {}
     };
 
     let mut result = String::new();

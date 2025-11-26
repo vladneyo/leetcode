@@ -12,24 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d96ed2f0-2a13-4113-99ca-735b0714f4c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddBinary.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindTheIndexOfTheFirstOccurrenceInAString.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LengthOfLastWord.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeTwoSortedLists.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlusOne.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolindromeNumber.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveElement.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RomanToInteger.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchInsertPosition.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SqrtX.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoSum.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidParentheses.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClimbingStairs.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddBinary.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddBinary.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestCommonPrefix.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SqrtX.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SqrtX.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,10 +75,13 @@
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="tool" value="Clippy" />
+  </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package LeetCode --bin LeetCode" />
@@ -123,7 +114,7 @@
       <updated>1739989966030</updated>
       <workItem from="1739989967273" duration="2944000" />
       <workItem from="1740693402661" duration="606000" />
-      <workItem from="1764074658431" duration="11460000" />
+      <workItem from="1764074658431" duration="16680000" />
     </task>
     <servers />
   </component>

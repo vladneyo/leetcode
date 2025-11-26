@@ -52,7 +52,7 @@ fn roman_to_int(s: String) -> i32 {
     for i in 0..cvec.len() {
         let curr_int = dict.get(&cvec[i]).unwrap();
 
-        if i <= 0 {
+        if i == 0 {
             acc += curr_int;
             continue;
         }
